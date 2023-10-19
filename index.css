@@ -54,6 +54,7 @@ main {
     main {
         max-width: 1080px;
         display: grid;
+        gap: 1rem;
         grid-template-columns: repeat(2, 1fr);
     }
     .card h3 {
@@ -115,4 +116,7 @@ main {
 }
 .card:nth-child(16) {
     background-image: url('assets/jwt-docker.png');
+}
+.card:nth-child(17) {
+    background-image: url('assets/jobly.jpg');
 }
